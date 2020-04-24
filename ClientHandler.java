@@ -39,6 +39,12 @@ public class ClientHandler implements Runnable
             while(true)
             {
                 String request = in.readLine();
+                /*
+                if(request.equals("quit")) {
+                    out.println("Bye!");
+                    break;
+                }
+                */
                 broadcastMessage(request);
             }
         } catch (IOException e) {
