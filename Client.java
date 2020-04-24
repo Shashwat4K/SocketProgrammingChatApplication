@@ -22,7 +22,7 @@ public class Client {
             sc = new Scanner(System.in);
             System.out.print("Enter IP address: ");
             SERVER_IP = sc.next();
-            System.out.print("Enter port number (1234 default): ");
+            System.out.print("Enter port number (Type 1234 for default): ");
             SERVER_PORT = sc.nextInt();
             System.out.print("Enter your Username: ");
             String uname = sc.next();
@@ -47,6 +47,12 @@ public class Client {
             while(true) {
                 System.out.print("> ");
                 String message = client_keyboard.readLine();
+                /*
+                if(message.equalsIgnoreCase("quit")) {
+                    client_writer.println("quit");
+                    break;
+                }
+                */
                 client_writer.println(message);
             }
 
