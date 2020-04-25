@@ -15,10 +15,16 @@ Enter the IP address and port number (IP address of the device on which the Serv
 
 Enter your Username and start chatting!<br>
 
-**Things to do in future versions**
+## **Things to do in future versions**
 <ul>
+  <li> Personal messaging facilty, Selective Recipient facility </li>
   <li> Adding smooth exception less performance </li>
-  <li> Messaging history </li>
-  <li> Sound effects and background notifications </li>
+  <li> Background notifications </li>
   <li> File transfer facility </li> 
 </ul>  
+
+## **Introducing: '$' Commands** <br>
+Adding few special commands with '$' prefix which will perform special tasks. <br>
+<ol>
+  <li> <b>$USERS</b> : Retrieves Usernames of currently connected Users. </li> 
+</ol>  
