@@ -14,7 +14,7 @@ Every participant (including the one who started the Server) must run <code>java
 Enter the IP address and port number (IP address of the device on which the Server has started, Port number is decided by the Server runner default is 1234).<br>
 
 Enter your Username and start chatting!<br>
-
+**Warning**: This application is still under development, Some exceptions here and there.
 ## **Things to do in future versions**
 <ul>
   <li> Personal messaging facilty, Selective Recipient facility </li>
